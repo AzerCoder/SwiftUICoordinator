@@ -24,7 +24,7 @@ struct CoordinatorStack<CoordinatorPage:Coordinatable>: View {
                 .sheet(item: $coordinator.sheet) { $0 }
                 .fullScreenCover(item: $coordinator.fullScreen) { $0 }
         }
-        .environment(coordinator)
+        .environmentObject(coordinator)
     }
 }
 

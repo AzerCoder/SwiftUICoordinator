@@ -9,10 +9,8 @@ import SwiftUI
 
 struct MainView: View {
     
-//    @EnvironmentObject private var mainCoordinater: Coordinator<MainCoordinatorPages>
-    
-    @Environment(Coordinator<MainCoordinatorPages>.self) private var mainCoordinater
-    
+    @EnvironmentObject private var mainCoordinater: Coordinator<MainCoordinatorPages>
+        
     var body: some View {
         List{
             Button("Sign Up"){

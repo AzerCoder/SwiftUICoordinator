@@ -11,13 +11,8 @@ struct LoginView: View {
     
     var title:String
     
-//    @EnvironmentObject private var loginCoordinator :Coordinator<LoginCoordinatorPages>
-//    @EnvironmentObject private var mainCoordinator :Coordinator<MainCoordinatorPages>
-//    
-    
-    @Environment(Coordinator<LoginCoordinatorPages>.self) private var loginCoordinator
-    @Environment(Coordinator<MainCoordinatorPages>.self) private var mainCoordinator
-    
+    @EnvironmentObject private var loginCoordinator :Coordinator<LoginCoordinatorPages>
+    @EnvironmentObject private var mainCoordinator :Coordinator<MainCoordinatorPages>
 
     var body: some View {
         List{

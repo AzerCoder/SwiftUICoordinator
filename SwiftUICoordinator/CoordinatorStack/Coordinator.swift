@@ -6,13 +6,13 @@
 //
 
 import SwiftUI
+import Combine
 
-@Observable
-class Coordinator<CoordinatorPage: Coordinatable> {
+class Coordinator<CoordinatorPage: Coordinatable>:ObservableObject {
     
-    var path:NavigationPath = NavigationPath()
-    var sheet:CoordinatorPage?
-    var fullScreen:CoordinatorPage?
+    @Published var path:NavigationPath = NavigationPath()
+    @Published var sheet:CoordinatorPage?
+    @Published var fullScreen:CoordinatorPage?
     
     enum PushType{
         case link
