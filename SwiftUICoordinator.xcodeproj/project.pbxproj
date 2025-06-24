@@ -6,17 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		82E4DF2D2E0AA0E600BE2F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E4DF292E0AA0E600BE2F4A /* Assets.xcassets */; };
+		82E4DF2E2E0AA0E600BE2F4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DF2A2E0AA0E600BE2F4A /* ContentView.swift */; };
+		82E4DF2F2E0AA0E600BE2F4A /* SwiftUICoordinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DF2B2E0AA0E600BE2F4A /* SwiftUICoordinatorApp.swift */; };
+		82E4DF352E0AA17F00BE2F4A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DF342E0AA17F00BE2F4A /* SignUpView.swift */; };
+		82E4DF372E0AA18800BE2F4A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DF362E0AA18800BE2F4A /* LoginView.swift */; };
+		82E4DF392E0AA18E00BE2F4A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DF382E0AA18E00BE2F4A /* MainView.swift */; };
+		82E4DF3B2E0AA1A100BE2F4A /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DF3A2E0AA1A100BE2F4A /* ForgotPasswordView.swift */; };
+		82E4DF3D2E0AA1E200BE2F4A /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DF3C2E0AA1E200BE2F4A /* Coordinatable.swift */; };
+		82E4DF3F2E0AA1F300BE2F4A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DF3E2E0AA1F300BE2F4A /* Coordinator.swift */; };
+		82E4DF412E0AA20700BE2F4A /* CoordinatorStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DF402E0AA20700BE2F4A /* CoordinatorStack.swift */; };
+		82E4DF432E0AA75200BE2F4A /* CoordinatorPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DF422E0AA75200BE2F4A /* CoordinatorPages.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		82E4DF1B2E0AA0DE00BE2F4A /* SwiftUICoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E4DF292E0AA0E600BE2F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82E4DF2A2E0AA0E600BE2F4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82E4DF2B2E0AA0E600BE2F4A /* SwiftUICoordinatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoordinatorApp.swift; sourceTree = "<group>"; };
+		82E4DF342E0AA17F00BE2F4A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		82E4DF362E0AA18800BE2F4A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		82E4DF382E0AA18E00BE2F4A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		82E4DF3A2E0AA1A100BE2F4A /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		82E4DF3C2E0AA1E200BE2F4A /* Coordinatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
+		82E4DF3E2E0AA1F300BE2F4A /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		82E4DF402E0AA20700BE2F4A /* CoordinatorStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorStack.swift; sourceTree = "<group>"; };
+		82E4DF422E0AA75200BE2F4A /* CoordinatorPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		82E4DF1D2E0AA0DE00BE2F4A /* SwiftUICoordinator */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUICoordinator;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		82E4DF182E0AA0DE00BE2F4A /* Frameworks */ = {
@@ -32,7 +49,7 @@
 		82E4DF122E0AA0DE00BE2F4A = {
 			isa = PBXGroup;
 			children = (
-				82E4DF1D2E0AA0DE00BE2F4A /* SwiftUICoordinator */,
+				82E4DF2C2E0AA0E600BE2F4A /* SwiftUICoordinator */,
 				82E4DF1C2E0AA0DE00BE2F4A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +60,56 @@
 				82E4DF1B2E0AA0DE00BE2F4A /* SwiftUICoordinator.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		82E4DF2C2E0AA0E600BE2F4A /* SwiftUICoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				82E4DF322E0AA13300BE2F4A /* CoordinatorStack */,
+				82E4DF332E0AA14500BE2F4A /* Pages */,
+				82E4DF312E0AA0FD00BE2F4A /* Views */,
+				82E4DF302E0AA0EA00BE2F4A /* App */,
+			);
+			path = SwiftUICoordinator;
+			sourceTree = "<group>";
+		};
+		82E4DF302E0AA0EA00BE2F4A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				82E4DF292E0AA0E600BE2F4A /* Assets.xcassets */,
+				82E4DF2B2E0AA0E600BE2F4A /* SwiftUICoordinatorApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		82E4DF312E0AA0FD00BE2F4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82E4DF2A2E0AA0E600BE2F4A /* ContentView.swift */,
+				82E4DF342E0AA17F00BE2F4A /* SignUpView.swift */,
+				82E4DF362E0AA18800BE2F4A /* LoginView.swift */,
+				82E4DF382E0AA18E00BE2F4A /* MainView.swift */,
+				82E4DF3A2E0AA1A100BE2F4A /* ForgotPasswordView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82E4DF322E0AA13300BE2F4A /* CoordinatorStack */ = {
+			isa = PBXGroup;
+			children = (
+				82E4DF3C2E0AA1E200BE2F4A /* Coordinatable.swift */,
+				82E4DF3E2E0AA1F300BE2F4A /* Coordinator.swift */,
+				82E4DF402E0AA20700BE2F4A /* CoordinatorStack.swift */,
+			);
+			path = CoordinatorStack;
+			sourceTree = "<group>";
+		};
+		82E4DF332E0AA14500BE2F4A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				82E4DF422E0AA75200BE2F4A /* CoordinatorPages.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +126,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				82E4DF1D2E0AA0DE00BE2F4A /* SwiftUICoordinator */,
 			);
 			name = SwiftUICoordinator;
 			packageProductDependencies = (
@@ -109,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E4DF2D2E0AA0E600BE2F4A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E4DF3F2E0AA1F300BE2F4A /* Coordinator.swift in Sources */,
+				82E4DF2E2E0AA0E600BE2F4A /* ContentView.swift in Sources */,
+				82E4DF352E0AA17F00BE2F4A /* SignUpView.swift in Sources */,
+				82E4DF432E0AA75200BE2F4A /* CoordinatorPages.swift in Sources */,
+				82E4DF372E0AA18800BE2F4A /* LoginView.swift in Sources */,
+				82E4DF392E0AA18E00BE2F4A /* MainView.swift in Sources */,
+				82E4DF3B2E0AA1A100BE2F4A /* ForgotPasswordView.swift in Sources */,
+				82E4DF2F2E0AA0E600BE2F4A /* SwiftUICoordinatorApp.swift in Sources */,
+				82E4DF412E0AA20700BE2F4A /* CoordinatorStack.swift in Sources */,
+				82E4DF3D2E0AA1E200BE2F4A /* Coordinatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +336,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,6 +368,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
