@@ -15,7 +15,7 @@ struct CoordinatorStack<CoordinatorPage:Coordinatable>: View {
         self.root = root
     }
     
-    @State private var coordinator = Coordinator<CoordinatorPage>()
+    @StateObject private var coordinator = Coordinator<CoordinatorPage>()
     
     var body: some View {
         NavigationStack(path: $coordinator.path) {
